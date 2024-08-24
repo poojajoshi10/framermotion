@@ -31,3 +31,40 @@ body {
     text-wrap: balance;
   }
 }
+
+
+body {
+  cursor: none;
+}
+
+body::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+}
+
+body {
+  position: relative;
+}
+
+body {
+  cursor: none;
+}
+
+body::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+}
